@@ -356,9 +356,9 @@ button {
     margin-bottom: 8px;
 }
 .features-li {
-    width: calc((100%- 0 * 72px) / 1);
+    width: calc((100% - 0 * 72px) / 1);
 }
-.features-icons {
+.container-icons {
     display: none;
 }
 
@@ -382,6 +382,10 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
     .second-section {
         padding-top: 120px;
         padding-bottom: 120px;
