@@ -55,10 +55,8 @@ button {
 
 .container {
     max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-right: auto;
-    margin-left: auto;
+    padding:0 16px;
+    margin: 0 auto;
 }
 
 .section {
@@ -398,9 +396,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
+    
     .hero.section {
         padding-top: 112px;
         padding-bottom: 112px;
@@ -415,12 +411,6 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .hero.section {
         padding-top: 188px;
@@ -480,9 +470,8 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
+
+    
     .features-ul .feature-section {
         text-align: start;
     }
@@ -499,10 +488,7 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    }
+
     .second-section {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -632,9 +618,6 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
 
     .our-team > .container {
         padding-left: 108px;
@@ -652,11 +635,6 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .our-team>.container {
         padding-left: 16px;
@@ -788,12 +766,11 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+        .container {
+            max-width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;
+}
 
     .portfolio.section {
         padding-top: 120px;
@@ -964,9 +941,8 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-            max-width: 768px;
-    }
+
+    
     .footer {
         padding-left: 108px;
     }
@@ -1001,11 +977,7 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -1026,7 +998,7 @@ button {
     }
 }
 
-/* Backdrop *
+/* Backdrop */
 
 .backdrop {
         position: fixed;
@@ -1206,7 +1178,7 @@ button {
 }
 
 .label-text {
-        width: 231px;
+    width: 231px;
 }
 
 .custom-checkbox {
@@ -1277,7 +1249,13 @@ button {
     }
 }
 
-
+@media screen and (min-resolution: 192dpi) {
+    .hero.section {
+        background-image: linear-gradient(rgb(46, 47, 66, 0.7),
+                rgb(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+    }
+}
 
 
 
