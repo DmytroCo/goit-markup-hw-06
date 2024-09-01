@@ -91,8 +91,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
+
 }
 .nav-list,
 .adress {
@@ -354,6 +353,11 @@ button {
 
 /* section1 */
 
+.hero {
+    padding-top:72px;
+    padding-bottom: 72px;
+}
+
 .hero.section {
     background-color: #2e2f42;
     background-image: linear-gradient(rgb(46, 47, 66, 0.7), rgb(46, 47, 66, 0.7)),
@@ -429,6 +433,11 @@ button {
 }
 
 /* section 2 Features */
+
+.second-section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
 
 .features-ul .feature-section {
     font-weight: 700;
